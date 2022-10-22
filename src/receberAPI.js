@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 
-function App() {
+function ReceberAPI() {
     var [numeroCliente, setNumeroCliente] = useState(0)
     var [data, setData] = useState([]);
 
@@ -36,4 +36,4 @@ function App() {
 }
 
 
-export default App;
+export default ReceberAPI;
